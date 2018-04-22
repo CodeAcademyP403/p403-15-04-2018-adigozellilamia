@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="content">
+        <div class="row">
+            <div class="col-3 mrg-t-50">
+                <div class="form-group">
+                    <label>Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="name">
+                </div>
+                <div class="form-group">
+                    <label>Surename</label>
+                    <input type="text" class="form-control" id="surename" placeholder="surename">
+                </div>
+                <div class="form-group">
+                    <label>Group</label>
+                    <input type="text" class="form-control" id="group" placeholder="group">
+                </div>
+                <div class="form-group">
+                    <label>Mail</label>
+                    <input type="email" class="form-control" id="mail" placeholder="mail">
+                </div>
+                <div class="form-group">
+                    <label>Grade</label>
+                    <input type="number" class="form-control" id="grade" placeholder="grade">
+                </div>
+                <button type="submit" id="add" class="btn btn-primary">Add</button>
+            </div>
+            <div class="col-9 mrg-t-65">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Name</th>
+                            <th scope="col">Surename</th>
+                            <th scope="col">Group</th>
+                            <th scope="col">Mail</th>
+                            <th scope="col">Grade</th>
+
+                        </tr>
+                    </thead>
+                    <tbody id="p403">
+                        <tr>
+                            <td id="Id" scope="row">1</td>
+                            <td id="name">Lamia</td>
+                            <td id="surename">Adigozelli</td>
+                            <td id="group">P303</td>
+                            <td id="mail">alamia.p303@code.edu.az</td>
+                            <td id="grade">99)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+
+    </div>
+    <script>
+        window.FontAwesomeConfig = {
+            searchPseudoElements: true
+        }
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

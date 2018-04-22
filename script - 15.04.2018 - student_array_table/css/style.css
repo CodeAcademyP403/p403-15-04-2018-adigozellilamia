@@ -1,0 +1,11 @@
+.content{
+    width: 1300px !important;
+    height: 100%;
+    margin: 1% auto;
+}
+.mrg-t-50{
+    margin-top: 50px;
+}
+.mrg-t-65{
+    margin-top: 65px;
+}
